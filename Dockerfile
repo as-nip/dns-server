@@ -1,4 +1,4 @@
-FROM alpine:edge AS builder
+FROM alpine:3.23 AS builder
 
 WORKDIR ./
 
@@ -18,7 +18,7 @@ RUN cd ./opt/technitium \
     && dotnet build TechnitiumLibrary/TechnitiumLibrary.Security.OTP/TechnitiumLibrary.Security.OTP.csproj -c Release \
     && dotnet publish DnsServer/DnsServerApp/DnsServerApp.csproj -c Release    
 
-FROM alpine:edge
+FROM alpine:3.23
 
 RUN apk add --no-cache aspnetcore10-runtime \
     libmsquic \
