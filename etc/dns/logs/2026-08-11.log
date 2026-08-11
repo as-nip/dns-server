@@ -1,0 +1,22 @@
+[2026-08-11 07:47:15 UTC] Logging started.
+[2026-08-11 07:47:24 UTC] DNS Server auth config file was saved: /home/dns-server/opt/technitium/dns/config/auth.config
+[2026-08-11 07:47:33 UTC] DHCP Server successfully saved scope file: /home/dns-server/opt/technitium/dns/config/scopes/Default.scope
+[2026-08-11 07:47:34 UTC] Web Service config file was saved: /home/dns-server/opt/technitium/dns/config/webservice.config
+[2026-08-11 07:47:34 UTC] DNS Server config file was saved: /home/dns-server/opt/technitium/dns/config/dns.config
+[2026-08-11 07:47:35 UTC] DNS Server allowed zone file was saved: /home/dns-server/opt/technitium/dns/config/allowed.config
+[2026-08-11 07:47:35 UTC] DNS Server blocked zone file was saved: /home/dns-server/opt/technitium/dns/config/blocked.config
+[2026-08-11 07:47:35 UTC] DNS Server block list config file was saved: /home/dns-server/opt/technitium/dns/config/blocklist.config
+[2026-08-11 07:47:38 UTC] DNS Server auth config file was saved: /home/dns-server/opt/technitium/dns/config/auth.config
+[2026-08-11 07:47:48 UTC] [[::]:5380] [HTTP] Web Service was bound successfully.
+[2026-08-11 07:47:49 UTC] [0.0.0.0:53] [UDP] DNS Server was bound successfully.
+[2026-08-11 07:47:49 UTC] [0.0.0.0:53] [TCP] DNS Server was bound successfully.
+[2026-08-11 07:47:49 UTC] [[::]:53] [UDP] DNS Server was bound successfully.
+[2026-08-11 07:47:49 UTC] [[::]:53] [TCP] DNS Server was bound successfully.
+[2026-08-11 07:47:49 UTC] DHCP Server successfully loaded scope: Default
+[2026-08-11 07:47:49 UTC] DNS Server (v15.4.0.0) was started successfully.
+[2026-08-11 07:48:37 UTC] DHCP Server successfully unloaded scope: Default
+[2026-08-11 07:48:38 UTC] Saving DNS Cache to disk...
+[2026-08-11 07:48:38 UTC] DNS Cache was saved to disk successfully.
+[2026-08-11 07:48:38 UTC] DNS Server (v15.4.0.0) was stopped successfully.
+[2026-08-11 07:48:38 UTC] DNS Server auth config file was saved: /home/dns-server/opt/technitium/dns/config/auth.config
+[2026-08-11 07:48:38 UTC] Logging stopped.
