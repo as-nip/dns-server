@@ -40,7 +40,7 @@ USER dns-server
 EXPOSE 5380
 
 ENTRYPOINT ["./usr/bin/dotnet", "./opt/technitium/dns/DnsServerApp.dll"]
-CMD ["start", "-c", "./etc/dns"]
+CMD ["./opt/technitium/dns/start.sh", "-c", "./etc/dns"]
 
 LABEL org.opencontainers.image.title="ASMGH-67 Private Homelab DNS"
 
