@@ -30,10 +30,10 @@ RUN addgroup -S dns-server \
 WORKDIR /opt/technitium/dns
 COPY --link --from=builder /opt/technitium/DnsServer/DnsServerApp/bin/Release/publish /opt/technitium/dns
 
-RUN mkdir -p /etc/dns /var/lib/technitium \
-    && chown dns-server:dns-server /etc/dns /var/lib/technitium
+RUN mkdir -p /etc/dns /var/log/technitium/dns \
+    && chown dns-server:dns-server /etc/dns /var/log/technitium/dns
 
-VOLUME ["/etc/dns", "/var/lib/technitium"]
+VOLUME ["/etc/dns", "/var/log/technitium/dns"]
 
 USER dns-server
 
