@@ -42,5 +42,5 @@ EXPOSE 5380
 ENTRYPOINT ["/usr/bin/dotnet", "/opt/technitium/dns/DnsServerApp.dll"]
 CMD ["/etc/dns"]
 
-LABEL org.opencontainers.image.title="ASMGH-67 Private Homelab DNS"
-
+LABEL org.opencontainers.image.title="ASMGH-67 DNS"
+LABEL org.opencontainers.image.description="Private HomeLab DNS"
